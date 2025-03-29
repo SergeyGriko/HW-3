@@ -18,8 +18,29 @@ public class Main {
         } else {
             System.out.println("Если скорость " + speed + ", можно ездить спокойно");
         }
-
-
+        int yearsOld = 25;
+        if (yearsOld >= 2 && yearsOld <= 6) {
+            System.out.println("Если возраст человека равен " + yearsOld + ", то ему нужно ходить в детский сад");
+        }
+        if (yearsOld >= 7 && yearsOld <= 17) {
+            System.out.println("Если возраст человека равен " + yearsOld + ", то ему нужно ходить в школу");
+        }
+        if (yearsOld >= 18 && yearsOld <= 24) {
+            System.out.println("Если возраст человека равен " + yearsOld + ", то ему нужно ходить в университет");
+        }
+        if (yearsOld > 24) {
+            System.out.println("Если возраст человека равен " + yearsOld + ", то ему пора ходить на работу");
+        }
+        int childAge = 19;
+        if (childAge < 5) {
+            System.out.println("Если возраст ребенка равен " + childAge + ", то ему нельзя кататься на аттракционе");
+        }
+        if (childAge > 5 && childAge < 14) {
+            System.out.println("Если возраст ребенка равен " + childAge + ", то ему можно кататься на аттракционе в сопровождении");
+        }
+        if (childAge >= 14) {
+            System.out.println("Если возраст ребенка равен " + childAge + ", то ему можно кататься на аттракционе без сопровождения взрослого");
+        }
 
     }
 }
